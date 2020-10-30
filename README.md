@@ -1,7 +1,8 @@
 bbox_label_tool
 ===============
 
-一个实现简单Bbox标注任务的程序 ([origion](https://github.com/puzzledqs/BBox-Label-Tool)) 使用Python Tkinter实现
+一个实现简单Bbox标注任务的程序 ([origion](https://github.com/puzzledqs/BBox-Label-Tool)) 
+使用Python Tkinter实现
 
 **更新:**
 
@@ -16,7 +17,7 @@ bbox_label_tool
 -----------------
 LabelTool  
 |  
-|--main.py   *# 主程序l*  
+|--main.py   *# 主程序*  
 |  
 |--Images/   *# 存放标注任务子文件夹*  
 |  
@@ -34,7 +35,7 @@ $ python main.py
 使用方法
 -----
 1. 该工具需要**将标注的图片放到/Images新建的相应标注任务子文件夹下**，通过输入相应标注任务文件夹名称，点击`Load`加载图片
-2. 左击选座Bbox左上角坐标，移动鼠标再次左击即可选定BboxTo
+2. 左击选座Bbox左上角坐标，移动鼠标再次左击即可选定Bbox
   - 画Bbox时可以通过 `<Esc>`取消.
   -  `Delete`可以删掉刚才画的Bbox.
   -  `ClearAll`可以删掉该图片中所有Bbox.
